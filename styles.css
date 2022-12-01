@@ -1,0 +1,113 @@
+:root{
+    /*
+
+    Types:
+    Normal, Fire, Water, Grass, Flying, Fighting, Poison, Electric, Ground, Rock, Psychic, Ice, Bug, Ghost, Steel, Dragon, Dark and Fairy.
+    
+    ----------colors----------
+
+    */
+    --type-normal: #a79c59;
+    --type-fire: #ff0000;
+    --type-water: #0000ff;
+    --type-grass: #008000;
+    --type-flying: #fff888;
+    --type-fighting: #a52a2a;
+    --type-poison: #800080;
+    --type-eletric: #ffff00;
+    --type-ground: #ffa500;
+    --type-rock: #382805;
+    --type-psychic: #fa3591;
+    --type-ice: #add8e6;
+    --type-bug: #9acd32;
+    --type-ghost: #7e47ff;
+    --type-steel: #c0c0c0;
+    --type-dragon: #00008b;
+    --type-dark: #1c0822;
+    --type-fairy: #eb94d5;
+
+    --dex-bg: #ee3535;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--dex-bg);
+}
+
+a{
+    text-decoration: none;
+}
+
+.br-normal{
+    background-color: var(--type-normal);
+}
+.bg-fire{
+    background-color: var(--type-fire);
+}
+.bg.water{
+    background-color: var(--type-water);
+}
+.bg-grass{
+    background-color: var(--type-grass);
+}
+.bg.flying{
+    background-color: var(--type-flying);
+}
+.bg-fighting{
+    background-color: var(--type-fighting);
+}
+.bg-poison{
+    background-color: var(--type-poison);
+}
+.bg-eletric{
+    background-color: var(--type-eletric);
+}
+.br-ground{
+    background-color: var(--type-ground);
+}
+.br-rock{
+    background-color: var(--type-rock);
+}
+.bg-psychic{
+    background-color: var(--type-psychic);
+}
+.bg-ice{
+    background-color: var(--type-ice);
+}
+.bg-bug{
+    background-color: var(--type-bug);
+}
+.bg.ghost{
+    background-color: var(--type-ghost);
+}
+.bg-steel{
+    background-color: var(--type-steel);
+}
+.bg-dragon{
+    background-color: var(--type-dragon);
+}
+.bg-dark{
+    background-color: var(--type-dark);
+}
+.bg-fairy{
+    background-color: var(--type-fairy);
+}
+    
+.btn-prev-next{
+    color: #fff;
+    background-color: #0c17aa;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.8rem; 
+}
+
+.btn-prev-next:hover{
+    background-color: #094e70;
+}
